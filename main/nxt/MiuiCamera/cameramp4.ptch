@@ -1,0 +1,4 @@
+appfile <MiuiCamera.apk>;
+#видео мр4, фикс памяти
+replaceinfile "%smali%/com/android/camera/module/VideoModule.smali" "".3gp"" "".mp4"";
+replaceinfile "%smali%/com/android/camera/module/VideoModule.smali" ""video/3gpp"" ""video/mp4"";
