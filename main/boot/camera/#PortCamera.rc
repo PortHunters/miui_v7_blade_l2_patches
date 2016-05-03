@@ -1,30 +1,13 @@
-    #Camera
-    chmod 0660 /dev/camera-sysram
-    chmod 0660 /dev/camera-isp
-    chmod 0660 /dev/camera-pipemgr
-    chmod 0660 /dev/kd_camera_hw
-    chmod 0660 /dev/kd_camera_flashlight
-    chmod 0660 /dev/kd_camera_hw_bus2
-    chmod 0660 /dev/FM50AF
+    #Add camera with ph-cr by I1PABIJJA <i1pabijja@gmail.com>
     chmod 0660 /dev/BU6424AF
     chmod 0660 /dev/BU64243AF
     chmod 0660 /dev/DW9714AF
     chmod 0660 /dev/A5141AF
     chmod 0660 /dev/A5141SIJICHUNAF
     chmod 0660 /dev/A5141SJCAF
-    chmod 0660 /dev/CAM_CAL_DRV
-
-    chown system camera /dev/camera-sysram
-    chown system camera /dev/camera-isp
-    chown system camera /dev/camera-pipemgr
-    chown system camera /dev/kd_camera_hw
-    chown system camera /dev/kd_camera_flashlight
-    chown system camera /dev/kd_camera_hw_bus2
-    chown system camera /dev/FM50AF
     chown system camera /dev/BU6424AF
     chown system camera /dev/BU64243AF
     chown system camera /dev/DW9714AF
     chown system camera /dev/A5141AF
     chown system camera /dev/A5141SIJICHUNAF
     chown system camera /dev/A5141SJCAF
-    chown system camera /dev/CAM_CAL_DRV
