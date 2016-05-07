@@ -1,4 +1,5 @@
 #Camera
+on post-fs-data
     chmod 0660 /dev/BU6424AF
     chmod 0660 /dev/BU64243AF
     chmod 0660 /dev/DW9714AF
